@@ -1,6 +1,7 @@
 import React from 'react';
 // import Axios for all client files making requests
 import axios from 'axios';
+import Login from './Login.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends React.Component {
     return (
      <div style={{textAlign: 'center'}}>
         <h1>Hello World</h1>
+        <Login />
       </div>);
   }
 }
